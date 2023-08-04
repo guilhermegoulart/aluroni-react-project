@@ -11,6 +11,7 @@ export default function Buscador({ pesquisa, setPesquisa }: BuscadorProps) {
       <input 
         value={pesquisa} 
         onChange={event => setPesquisa(event.target.value)} />
+        
     </div>
   )
 } 
