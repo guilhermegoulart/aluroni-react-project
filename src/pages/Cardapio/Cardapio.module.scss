@@ -56,3 +56,11 @@
     margin-bottom: 30px;
   }
 }
+
+.cardapio__filtrosAndOrdenador {
+  display: flex;
+  flex-direction: row; // or "column" based on your layout requirements
+  align-items: center; // Adjust alignment as needed
+  justify-content: space-between; // Adjust spacing as needed
+  margin: 20px 0; // Adjust margins as needed
+}

@@ -22,11 +22,16 @@ export default function Cardapio() {
 
       <section className={styles.cardapio}>
         <h3 className={styles.cardapio__titulo}>Cardapio</h3>
+
         <Buscador pesquisa={busca} setPesquisa={setBusca} />
-        <div className={styles.cardapio__filtros}>
-          <Filtros filtro={filtro} setFiltro={setFiltro} />
+
+        <div className={styles.cardapio__filtrosAndOrdenador}>
+          <div className={styles.cardapio__filtros}>
+            <Filtros filtro={filtro} setFiltro={setFiltro} />
+          </div>
           <Ordenador />
         </div>
+        
       </section>
     </main>
   );
